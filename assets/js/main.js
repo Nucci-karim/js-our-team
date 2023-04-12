@@ -40,9 +40,9 @@ for( let i=0; i < team.length; i++ ){
 
      document.querySelector('.row').innerHTML += 
      `
-         <div class="col">
+         <div class="col mb-2 p-0 d-flex justify-content-center">
              <div class="card" style="width: 18rem;">
-                 <img src="..." class="card-img-top" alt="...">
+                 <img src="./assets/img/${ Elemento.image }" class="card-img-top" alt="...">
                  <div class="card-body" id='${i}'>
                     <h5 class="card-title">${ Elemento.name }</h5>
                     <p class="card-text">${ Elemento.role }</a>
